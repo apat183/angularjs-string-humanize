@@ -3,8 +3,13 @@
   "version": "0.0.1",
   "main": "src/angular-string-humanize.js",
   "description": "Angular 1.x filter for rendering strings to human-readable data",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/apat183/angularjs-string-humanize"
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "*.md",
+    "package.json"
+  ],
+  "dependencies": {
+    "angular": "~1.6.0"
   }
 }
