@@ -1,10 +1,38 @@
 {
   "name": "angularjs-string-humanize",
   "version": "0.0.1",
-  "main": "src/angular-string-humanize.js",
-  "description": "Angular 1.x filter for rendering strings to human-readable data",
+  "main": "src/angularjs-string-humanize.js",
+  "description": "Angular 1.x filter for rendering unknown formatted strings to human-readable data",
   "repository": {
     "type": "git",
     "url": "https://github.com/apat183/angularjs-string-humanize"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "0.4.4",
+    "grunt-contrib-uglify": "0.4.0",
+    "grunt-karma": "0.8.2",
+    "karma": "0.12.0",
+    "karma-jasmine": "0.1.5",
+    "karma-chrome-launcher": "0.1.2",
+    "karma-firefox-launcher": "0.1.3",
+    "karma-phantomjs-launcher": "0.1.2",
+    "karma-script-launcher": "0.1.0"
+  },
+  "scripts": {
+    "test": "grunt karma"
+  },
+  "keywords": [
+    "angularjs",
+    "string",
+    "filter",
+    "humanize"
+  ],
+  "author": "Anand Patel",
+  "contributors": [
+    "Anand Patel (https://github.com/apat183)"
+  ]
 }
